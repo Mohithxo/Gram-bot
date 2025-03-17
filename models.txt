@@ -1,0 +1,16 @@
+1.whisper model open api - text to speech
+2.gtts - text to speech
+3.speech to text - transformer pipeline
+4.transcribe function -Takes an audio input, converts it to float for processing, transcribes it
+5.A JavaScript snippet RECORD - microphone
+6.A hugging face transformer model - grammar correction
+7.Gradio - This interface provides a complete cycle: Audio Input → Transcription → Grammar Correction → Audio Output.
+
+
+whisper: A model for speech-to-text from OpenAI.
+gradio: For building a web interface to interact with the code.
+openai: To connect to OpenAI’s API.
+gtts (Google Text-to-Speech): For converting text to audio.
+speech_recognition: To capture and process audio for speech recognition.
+transformers: Provides the model and tokenizer for automatic speech recognition and grammar correction.
+pydub: For audio format conversions (e.g., WebM to WAV).
